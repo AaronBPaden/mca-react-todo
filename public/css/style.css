@@ -1,6 +1,12 @@
 /* global section */
 * { box-sizing: border-box }
 
+:root {
+	--prim: #eaeab2;
+	--sec: #A98546;
+	--line: darkblue;
+}
+
 body {
 	margin: 0;
 	padding: 0;
@@ -15,15 +21,15 @@ body {
 	margin: 3rem auto;
 	min-height: calc(100vh - 6rem);
 	width: 90%;
-	background: #eaeab2;
-	box-shadow: 6px 6px 3px 0px #A98546;
+	background: var(--prim);
+	box-shadow: 6px 6px 3px 0px var(--sec);
 }
 
 .main-header > h1 {
 	font-size: 3rem;
 	padding: 2rem;
 	text-align: center;
-	border-bottom: 2px solid darkblue;
+	border-bottom: 2px solid var(--line);
 }
 
 @media (orientation: landscape) {
