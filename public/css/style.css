@@ -7,6 +7,10 @@
 	--line: darkblue;
 }
 
+h1 {
+	margin: 0;
+}
+
 body {
 	margin: 0;
 	padding: 0;
@@ -36,6 +40,39 @@ body {
 	.main {
 		width: 50%;
 	}
+}
+
+.todo-item {
+	border-bottom: 2px solid var(--line);
+}
+.todo-adder {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 2rem;
+	margin: 0;
+}
+
+.todo-adder > input {
+	line-height: 2rem;
+}
+
+.todo-adder > button {
+	width: 3rem;
+	height: 3rem;
+	font-size: 2rem;
+	font-weight: bold;
+	background: var(--sec);
+	border: 1px solid black;
+}
+
+.todo-adder > button:hover {
+	filter: grayscale(20%);
+}
+
+.todo-adder > button:active {
+	filter: grayscale(30%);
+	border: 1px solid darkgray;
 }
 
 /* footer section */
