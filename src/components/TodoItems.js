@@ -4,7 +4,6 @@ const TodoItems = () => {
 	const [itemText, setItemText] = useState("");
 	const handleChange = (e) => {
 		setItemText(e.target.value);
-		console.log(itemText);
 	};
 	const addItem = () => {
 		setItems(prev => [
