@@ -12,6 +12,7 @@ const TodoItems = () => {
 				{itemText}
 			</div>
 		]);
+		setItemText("");
 	}
 	return(
 		<section className="todo-items">
