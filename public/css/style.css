@@ -43,6 +43,8 @@ body {
 }
 
 .todo-item {
+	padding: 2rem;
+	font-size: 1.2rem;
 	border-bottom: 2px solid var(--line);
 }
 .todo-adder {
@@ -55,6 +57,7 @@ body {
 
 .todo-adder > input {
 	line-height: 2rem;
+	font-family: 'Indie Flower', cursive;
 }
 
 .todo-adder > button {
